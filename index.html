@@ -9,6 +9,92 @@
   <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="https://hawaiianhumane.org/wp-content/themes/hawaiianhumanesociety/images/hhs-logo-horizontal.svg" width="400px" height="50px"></a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <!--Need to add Search here-->
+        <li class="nav-item">
+          <i class="bi bi-search"></i> <!--Something wrong here-->
+        </li>
+        <!--Services-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Adoption</a></li>
+            <li><a class="dropdown-item" href="#">Lost and Found</a></li>
+            <li><a class="dropdown-item" href="#">Animal Admissions</a></li>
+          </ul>
+        </li>
+        <!--Get Involved Dropdown-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="getInvolved" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Get Involved
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Volunteer With Us</a></li>
+            <li><a class="dropdown-item" href="#">Foster</a></li>
+            <li><a class="dropdown-item" href="#">Events</a></li>
+          </ul>
+        </li>
+        <!--Resources Dropdown-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Resources
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Frequently Asked Questions</a></li>
+            <li><a class="dropdown-item" href="#">Free-Roaming Cats</a></li>
+            <li><a class="dropdown-item" href="#">Pet Boarding & Sitting List</a></li>
+          </ul>
+        </li>
+        <!--Ways to Give Dropdown-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="waysToGive" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ways to Give
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Shop Our Online Store</a></li>
+            <li><a class="dropdown-item" href="#">Wishlist</a></li>
+            <li><a class="dropdown-item" href="#">Host Your Own Fundraiser</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!--Buttons-->
+      <form class="container-fluid d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-outline-success me-2" type="button">Donate</button>
+        <button class="btn btn-outline-success me-2" type="button">Shop</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row justify-content-center">
+    <img width="100%" src="Wally.png" alt="Cat Photo">
+  </div>
+</div>
+<!--Middle-->
+<div class="container">
+  <div class="row justify-content-center py-3">
+    <div class="col">
+      <button class="btn btn-default">
+        <img src="https://hawaiianhumane.org/wp-content/uploads/2020/10/1-1.jpg" width="20" /> Adoptions
+      </button>
+    </div>
+    <div class="col">
+      <button class="btn btn-default">
+        <img src="https://hawaiianhumane.org/wp-content/uploads/2020/10/2-1.jpg" width="20" /> Lost and Found
+      </button>
+    </div>
+    <div class="col">
+      <button class="btn btn-default">
+        <img src="https://hawaiianhumane.org/wp-content/uploads/2020/06/IMG_4959.jpg" width="20" /> Report Animal Cruelty
+      </button>
+    </div>
+  </div>
+</div>
 </body>
 </html>
