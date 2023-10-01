@@ -6,17 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
   <link href="styles.css" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="https://hawaiianhumane.org/wp-content/themes/hawaiianhumanesociety/images/hhs-logo-horizontal.svg" width="400px" height="50px"></a>
+    <a class="navbar-brand" href="#"><img src="https://hawaiianhumane.org/wp-content/themes/hawaiianhumanesociety/images/hhs-logo-horizontal.svg" alt="Logo" width="400px" height="50px"></a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <!--Need to add Search here-->
         <li class="nav-item">
-          <i class="bi bi-search"></i> <!--Something wrong here-->
+          <a class="nav-link" href="#">
+            <i class="bi bi-search"></i>
+          </a>
         </li>
         <!--Services-->
         <li class="nav-item dropdown">
@@ -71,36 +75,90 @@
     </div>
   </div>
 </nav>
-<div class="container">
+<div class="container-main">
   <div class="row justify-content-center">
     <img width="100%" src="Wally.png" alt="Cat Photo">
   </div>
 </div>
 <!--Middle-->
 <div class="container">
-  <div class="row justify-content-center py-3">
+  <div class="row justify-content-center py-5">
     <div class="col">
-      <button class="btn btn-primary p-0 position-relative">
-        <img src="Button-1.jpeg" alt="Image" class="img-fluid" width="200" height="150">
-        <h4 class="position-absolute top-50 start-50 translate-middle text-white">Adoptions
-        </h4>
+      <button class="btn custom-button-1">
+        <h4 class="button-text">Adoptions</h4>
       </button>
     </div>
     <div class="col">
-      <button class="btn btn-primary p-0 position-relative">
-        <img src="Button-2.jpeg" alt="Image" class="img-fluid" width="200" height="150">
-          <h4 class="position-absolute top-50 start-50 translate-middle text-white">Lost & Found
-          </h4>
+      <button class="btn custom-button-2">
+        <h4 class="button-text">Lost & Found</h4>
       </button>
     </div>
     <div class="col">
-      <button class="btn btn-primary p-0 position-relative">
-        <img src="Button-3.jpeg" alt="Image" class="img-fluid" width="200" height="150">
-        <h4 class="position-absolute top-50 start-50 translate-middle text-white">Report Animal Cruelty
-        </h4>
+      <button class="btn custom-button-3">
+        <h4 class="button-text">Report Animal Cruelty</h4>
       </button>
     </div>
   </div>
 </div>
+<div class="container">
+  <form class="subscription-form">
+    <h2 class="py-5"><strong>Get the latest updates from Hawaiian Humane straight to your inbox!</strong></h2>
+    <div class="mb-3">
+      <label for="inputEmail1" class="form-label">Email Address</label>
+      <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label for="inputFirstName" class="form-label">First Name</label>
+      <input type="text" class="form-control" id="inputFirstName">
+    </div>
+    <div class="mb-3">
+      <label for="inputLastName" class="form-label">Last Name</label>
+      <input type="text" class="form-control" id="inputLastName">
+    </div>
+    <button type="submit" class="btn btn-primary subscribe-button">Subscribe</button>
+  </form>
+</div>
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col">
+        <h5>ABOUT US</h5>
+        <p><a class="footer-anchor" href="#">Our Story</a></p>
+        <p><a class="footer-anchor" href="#">Leadership Team</a></p>
+        <p><a class="footer-anchor" href="#">Board of Directors</a></p>
+        <p><a class="footer-anchor" href="#">Where We Stand</a></p>
+        <p><a class="footer-anchor" href="#">Career Opportunities</a></p>
+        <p><a class="footer-anchor" href="#">Offsite Adoption Partners</a></p>
+        <p><a class="footer-anchor" href="#">Contact Us</a></p>
+        <p><a class="footer-anchor" href="#">Visit Us</a></p>
+        <p><a class="footer-anchor" href="#">Privacy Policy</a></p>
+      </div>
+      <div class="col">
+        <h5>PRESS</h5>
+        <p><a class="footer-anchor" href="#">In The News</a></p>
+      </div>
+      <div class="col">
+        <h5>RESOURCES AND PUBLICATIONS</h5>
+        <p><a class="footer-anchor" href="#">Paw Prints</a></p>
+        <p><a class="footer-anchor" href="#">Annual Report</a></p>
+        <p><a class="footer-anchor" href="#">Frequently Asked Questions</a></p>
+      </div>
+      <div class="col">
+        <h5>SPAY/NEUTER INFORMATION</h5>
+        <p><a class="footer-anchor" href="#">Owned Pets</a></p>
+        <p><a class="footer-anchor" href="#">Free-Roaming Cats</a></p>
+        <p><a class="footer-anchor" href="#">Trap-Neuter-Release-Manage</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="container-socials pt-3">
+    <div class="d-flex flex-row">
+        <i class="bi bi-facebook d-inline-block px-2"></i>
+        <i class="bi bi-instagram d-inline-block px-2"></i>
+        <i class="bi bi-youtube d-inline-block px-2"></i>
+        <i class="bi bi-tiktok d-inline-block px-2"></i>
+   </div>
+  </div>
+</footer>
 </body>
 </html>

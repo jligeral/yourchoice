@@ -1,0 +1,67 @@
+.subscription-form {
+  margin: 10px 200px 10px 200px;
+  padding: 10px;
+  border: 25px solid #f3f6ee;
+}
+
+.custom-button-1 {
+  width: 300px; /* Set your desired button width */
+  height: 150px; /* Set your desired button height */
+  background: url(Button-1.jpeg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.custom-button-2 {
+  width: 300px; /* Set your desired button width */
+  height: 150px; /* Set your desired button height */
+  background: url(Button-2.jpeg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.custom-button-3 {
+  width: 300px; /* Set your desired button width */
+  height: 150px; /* Set your desired button height */
+  background: url(Button-3.jpeg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #4a8b2c;
+  color: white;
+  text-align: center;
+}
+
+.footer-anchor {
+  color: white;
+  text-decoration: none;
+  margin: 1px 10px 1px 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+p {
+  margin: 1px 10px 1px 10px;
+}
+
+h5 {
+  margin: 20px 10px 3px 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.subscribe-button {
+  background-color: #aaa;
+}
